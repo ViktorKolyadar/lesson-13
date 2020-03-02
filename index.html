@@ -16,6 +16,383 @@
 		<link href="css/main.css" rel="stylesheet">
 	</head>
 <body>
+	<div data-ui-component="" id="courseInfoComponent" class="ui_component_page" data-page-id="content_info" data-props="{&quot;id&quot;:&quot;621&quot;,&quot;contentProps&quot;:{&quot;isReadOnly&quot;:false,&quot;lpContentItemId&quot;:621,&quot;lpContentItemUId&quot;:&quot;f50926dc-481a-11ea-952e-0ee0eb433568&quot;,&quot;userId&quot;:334,&quot;isExpired&quot;:false,&quot;questionsApi&quot;:{&quot;getCoursesUrl&quot;:&quot;\/questions_answers\/get_courses&quot;,&quot;editQuestionUrl&quot;:&quot;\/questions_answers\/edit_question&quot;,&quot;deleteQuestionUrl&quot;:&quot;\/questions_answers\/delete_question&quot;,&quot;addAnswerUrl&quot;:&quot;\/questions_answers\/add_answer&quot;,&quot;editAnswerUrl&quot;:&quot;\/questions_answers\/edit_answer&quot;,&quot;deleteAnswerUrl&quot;:&quot;\/questions_answers\/delete_answer&quot;,&quot;addAttachmentUrl&quot;:&quot;\/questions_answers\/add_attachment&quot;,&quot;deleteAttachmentUrl&quot;:&quot;\/questions_answers\/delete_attachment&quot;,&quot;markViewedQuestionsUrl&quot;:&quot;\/questions_answers\/mark_questions_read&quot;,&quot;getCurrentUserUrl&quot;:&quot;\/questions_answers\/get_current_user&quot;,&quot;getQuestionsUrl&quot;:&quot;\/questions_answers\/get_course_questions&quot;,&quot;addQuestionUrl&quot;:&quot;\/questions_answers\/f50926dc-481a-11ea-952e-0ee0eb433568\/add_question&quot;},&quot;reviewsApi&quot;:{&quot;getCourseReviewsUrl&quot;:&quot;\/course\/621\/get_reviews&quot;,&quot;addReviewUrl&quot;:&quot;\/course\/621\/add_review&quot;,&quot;editReviewUrl&quot;:&quot;\/course\/621\/edit_review&quot;,&quot;deleteReviewUrl&quot;:&quot;\/course\/621\/delete_review&quot;},&quot;selectedTabId&quot;:&quot;structure&quot;,&quot;api&quot;:{&quot;getCourseContentUrl&quot;:&quot;\/questions_answers\/get_course_modules?course_id=f50926dc-481a-11ea-952e-0ee0eb433568&quot;,&quot;contentListUrl&quot;:&quot;\/content\/info\/621\/get_learning_path_structure&quot;},&quot;router&quot;:{&quot;writeMessageUrl&quot;:&quot;\/messages&quot;},&quot;tabs&quot;:[],&quot;restrictions&quot;:{&quot;maxMessageLength&quot;:10000,&quot;maxAttachmentsCount&quot;:20},&quot;showAddReviewPopupOnConnect&quot;:false},&quot;topPanel&quot;:{&quot;logo&quot;:{&quot;imageUrl&quot;:&quot;https:\/\/ligastavok.ispringlearn.ru\/proxy\/learn-cnode-0\/uploads\/204631\/user_portal_logo\/uplogo\/thumb_250x64?v=524&quot;},&quot;navigation&quot;:{&quot;pages&quot;:[&quot;content&quot;,&quot;events&quot;,&quot;achievements&quot;,&quot;catalog&quot;]},&quot;userMenu&quot;:{&quot;user&quot;:{&quot;avatarUrl&quot;:&quot;&quot;,&quot;login&quot;:&quot;viktor.kolyadar@ligastavok.ru&quot;,&quot;name&quot;:&quot;\u041a\u043e\u043b\u044f\u0434\u0430\u0440 \u0412\u0438\u043a\u0442\u043e\u0440&quot;},&quot;userMenuActions&quot;:[&quot;profile&quot;,&quot;history&quot;,&quot;logoff&quot;]},&quot;router&quot;:{&quot;currentPageId&quot;:&quot;content&quot;}},&quot;api&quot;:{&quot;getCourseInfoUrl&quot;:&quot;\/content\/info\/621\/get_course_info&quot;}}"><div class="x91995__page" save-ref="">
+	<div class="x1a6b9__top-panel x1a6b9__top-panel_big-shadow" save-ref="">
+	<div class="x1a6b9__first-line">
+	<a href="/" class="xbe6e3__logotype">
+	<div style="background-image: url(&quot;https://ligastavok.ispringlearn.ru/proxy/learn-cnode-0/uploads/204631/user_portal_logo/uplogo/thumb_250x64?v=524&quot;);" class="xbe6e3__logo">
+</div><!---0.608499%-->
+</a><!---0.608499%-->	
+	<div class="x1a6b9__navigation">
+		<div class="x1a6b9__navigation-placeholder" save-ref=""></div><!---0.608499%-->
+		<div class="x48b1b__navigation-menu" save-ref="">
+	<div class="x48b1b__navigation-wrapper">
+		<div class="x48b1b__navigation" save-ref="">
+			<a target="_self" href="/courses" class="x372e7__navigation-item x372e7__navigation-item_selected" save-ref="">
+	<div class="x372e7__content-wrapper">
+		<div class="x372e7__icon x372e7__icon_type_content">
+			<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path d="M17,16.5 C17,17.3284271 16.3284271,18 15.5,18 L4,18 C2.51374499,18 1.27992193,16.9192103 1.0415961,15.5006962 L1,15.5 C1,15.419387 1.00381545,15.3396652 1.01127562,15.2610052 C1.00381026,15.175604 1,15.088247 1,15 L1,3 C1,1.34314575 2.34314575,-2.48689958e-14 4,-2.48689958e-14 L15.5,-2.48689958e-14 C16.3284271,-2.48689958e-14 17,0.671572875 17,1.5 L17,16.5 Z M15.6,14.399 L3.5,14.4 C2.96999708,14.4 2.52754147,14.7748346 2.42326651,15.2738703 C2.55378168,16.0275038 3.21003402,16.6 4,16.6 L15.5,16.6 C15.5552285,16.6 15.6,16.5552285 15.6,16.5 L15.6,14.399 Z M6.999,1.399 L4,1.4 C3.1163444,1.4 2.4,2.1163444 2.4,3 L2.40027481,13.2542444 C2.73214618,13.0914234 3.10539655,13 3.5,13 L15.6,12.999 L15.6,1.5 C15.6,1.44477153 15.5552285,1.4 15.5,1.4 L13.002,1.399 L13.0020406,8.24926758 C13.0023374,8.52598268 12.8530316,8.78039479 12.613588,8.91114258 C12.5197301,8.96156095 12.1035279,8.95786119 11.919843,8.90117663 L11.8569744,8.87364258 L9.99893531,7.68035889 L8.15593755,8.87364258 C7.92992304,9.02722916 7.639236,9.04157339 7.39970269,8.9109597 C7.19011104,8.79667272 7.04115156,8.58765318 7.00730068,8.35179493 L6.99999946,8.24926758 L6.999,1.399 Z M11.6020402,1.4 L8.39999923,1.4 L8.39999923,7.04778833 L9.99585183,6.01452344 L11.6020402,7.04629112 L11.6020402,1.4 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+</svg><!---0.608499%-->
+		</div>
+		<div class="x372e7__text">
+			Мои курсы<!---0.608499%-->
+		</div>
+	</div>
+	<div class="x372e7__selected-pointer x372e7__selected-pointer_visible"></div><!---0.608499%-->	
+</a><a target="_self" href="/events" class="x372e7__navigation-item" save-ref="">
+	<div class="x372e7__content-wrapper">
+		<div class="x372e7__icon x372e7__icon_type_events">
+			<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M13.2992541,-0.0009765625 C13.686535,-0.0009765625 14.0004883,0.312976693 14.0004883,0.700257661 L14.0004883,0.700257661 L14,1.99902344 L15.5,2 C16.8807119,2 18,3.11928813 18,4.5 L18,15.5 C18,16.8807119 16.8807119,18 15.5,18 L3.5,18 C2.11928813,18 1,16.8807119 1,15.5 L1,4.5 C1,3.11928813 2.11928813,2 3.5,2 L5,1.99902344 L5,0.700257661 C5,0.345250107 5.26380794,0.0518582004 5.60608089,0.00542487944 L5.70123422,-0.0009765625 C6.08851519,-0.0009765625 6.40246845,0.312976693 6.40246845,0.700257661 L6.40246845,0.700257661 L6.402,1.99902344 L12.598,1.99902344 L12.5980198,0.700257661 C12.5980198,0.345250107 12.8618278,0.0518582004 13.2041007,0.00542487944 Z M16.6,6.39902344 L2.399,6.39902344 L2.4,15.5 C2.4,16.1075132 2.89248678,16.6 3.5,16.6 L15.5,16.6 C16.1075132,16.6 16.6,16.1075132 16.6,15.5 L16.6,6.39902344 Z M14.3,12.6043945 C14.6865993,12.6043945 15,12.9177952 15,13.3043945 C15,13.6909939 14.6865993,14.0043945 14.3,14.0043945 L12.7,14.0043945 C12.3134007,14.0043945 12,13.6909939 12,13.3043945 C12,12.9177952 12.3134007,12.6043945 12.7,12.6043945 L14.3,12.6043945 Z M10.3,12.6043945 C10.6865993,12.6043945 11,12.9177952 11,13.3043945 C11,13.6909939 10.6865993,14.0043945 10.3,14.0043945 L8.7,14.0043945 C8.31340068,14.0043945 8,13.6909939 8,13.3043945 C8,12.9177952 8.31340068,12.6043945 8.7,12.6043945 L10.3,12.6043945 Z M6.3,12.6043945 C6.68659932,12.6043945 7,12.9177952 7,13.3043945 C7,13.6909939 6.68659932,14.0043945 6.3,14.0043945 L4.7,14.0043945 C4.31340068,14.0043945 4,13.6909939 4,13.3043945 C4,12.9177952 4.31340068,12.6043945 4.7,12.6043945 L6.3,12.6043945 Z M14.3,9 C14.6865993,9 15,9.31340068 15,9.7 C15,10.0865993 14.6865993,10.4 14.3,10.4 L12.7,10.4 C12.3134007,10.4 12,10.0865993 12,9.7 C12,9.31340068 12.3134007,9 12.7,9 L14.3,9 Z M10.3,9 C10.6865993,9 11,9.31340068 11,9.7 C11,10.0865993 10.6865993,10.4 10.3,10.4 L8.7,10.4 C8.31340068,10.4 8,10.0865993 8,9.7 C8,9.31340068 8.31340068,9 8.7,9 L10.3,9 Z M6.3,9 C6.68659932,9 7,9.31340068 7,9.7 C7,10.0865993 6.68659932,10.4 6.3,10.4 L4.7,10.4 C4.31340068,10.4 4,10.0865993 4,9.7 C4,9.31340068 4.31340068,9 4.7,9 L6.3,9 Z M15.5,3.4 L3.5,3.4 C2.89248678,3.4 2.4,3.89248678 2.4,4.5 L2.399,4.99902344 L16.6,4.99902344 L16.6,4.5 C16.6,3.89248678 16.1075132,3.4 15.5,3.4 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+</svg><!---0.608499%-->
+		</div>
+		<div class="x372e7__text">
+			Мероприятия<!---0.608499%-->
+		</div>
+	</div>
+	<div class="x372e7__selected-pointer"></div><!---0.608499%-->	
+</a><a target="_self" href="/achievements" class="x372e7__navigation-item" save-ref="">
+	<div class="x372e7__content-wrapper">
+		<div class="x372e7__icon x372e7__icon_type_achievements">
+			<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path fill="#000000" d="M13.4307128,0 C13.8691427,0.000209805014 14.2854515,0.192572289 14.5697654,0.52631834 C14.8540792,0.860064391 15.069478,1.30165563 15,1.73454545 L14.953,2.002 L15.7420765,2.00245455 C16.425472,2.00283609 17.0717939,2.31323389 17.4993282,2.84637935 C17.9268625,3.37952481 18.089439,4.07784255 17.9413492,4.745 L17.490531,7.08581818 C17.0530268,9.33504291 15.0990099,10.9656222 12.8140884,10.9994651 C12.4928712,11.3915974 12.1081954,11.7365406 11.6904071,12.0158182 C11.3285907,12.2562411 11.111615,12.6622253 11.1127708,13.0966364 C11.1126127,13.4302697 11.3397003,13.7211308 11.6634071,13.8019091 L12.0880435,13.9090909 C13.2792138,14.2057331 14.2466619,15.2759941 14.2456219,16.5035455 C14.2438204,17.3295864 13.574391,17.99865 12.7483492,18 L5.24480373,18 C4.41812435,17.9986475 3.74843189,17.3285891 3.747531,16.5019091 C3.74618531,15.274699 4.7456572,14.2046379 5.9365451,13.9082727 L6.36036328,13.8010909 C6.68411261,13.7209082 6.91137013,13.4301671 6.91099964,13.0966364 C6.91153073,12.6621802 6.69433538,12.2563597 6.3325451,12.0158182 C5.9157082,11.7368332 5.52650211,11.3925054 5.19816834,11.0002269 L5.24971282,11 C2.93424748,10.9980446 0.944795152,9.35571743 0.504258275,7.08254545 L0.0493491843,4.72127273 C-0.0920922147,4.05659486 0.0741106113,3.36358732 0.501643123,2.8353655 C0.929175635,2.30714368 1.57233426,2.00017493 2.25189464,2 L3.045,2 L3,1.73454545 C2.93049939,1.30151452 3.13588245,0.859784181 3.4203802,0.526007077 C3.70487795,0.192229973 4.12141272,0 4.55998555,0 L13.4307128,0 Z M13.4300429,1.39999984 L4.55998555,1.39999984 C4.53141069,1.39999984 4.50432678,1.41250059 4.48585421,1.43417289 L4.41043351,1.5257151 C4.39481749,1.54053621 4.38682769,1.53635294 4.38077015,1.50323101 L5.63521035,8.80839803 C5.74488249,9.48653722 6.23138608,10.2002955 6.92897216,10.7233259 L7.26428514,10.9623624 C7.92251831,11.4712531 8.31202448,12.2588937 8.31099878,13.0950812 C8.31208478,14.0727521 7.64593011,14.9249946 6.70361102,15.1583606 L6.27463804,15.2668356 C5.63713181,15.4254859 5.14696909,15.9887024 5.14753017,16.5003834 C5.14759008,16.5553551 5.19212258,16.6000019 5.24480373,16.6000019 L12.7460612,16.6000019 C12.8009904,16.6000019 12.8455054,16.5554214 12.8456224,16.5023594 C12.8460679,15.9765392 12.3741277,15.4230953 11.7454175,15.2665177 L11.3244433,15.160255 C10.3769771,14.9238227 9.71230839,14.0724937 9.71277573,13.1003611 C9.71054101,12.2604007 10.0999503,11.4714792 10.7562437,10.9639403 L11.0875328,10.7276707 C11.770982,10.2137684 12.2442112,9.50235505 12.3588155,8.79339969 L13.6167163,1.51832306 L13.6099059,1.53991906 C13.6045061,1.54844719 13.5970927,1.545685 13.5858987,1.5343209 L13.5040432,1.43419296 C13.4855723,1.41251061 13.4585262,1.39999984 13.4300429,1.39999984 Z M13.7383492,9.03190909 C13.7196068,9.1479322 13.6951509,9.26271469 13.6653532,9.37603254 C14.898824,9.04182587 15.9541498,8.06223624 16.1999401,6.80027273 L16.6532128,4.439 C16.7090051,4.21053549 16.6564943,3.9691064 16.5108492,3.78445455 C16.3683259,3.60579949 16.1519329,3.50212369 15.9233946,3.503 L14.693,3.502 L13.7383492,9.03190909 Z M3.302,3.5 L2.07539728,3.50054545 C1.84673075,3.50004768 1.63023609,3.60352125 1.48700107,3.78176927 C1.34376604,3.9600173 1.28932287,4.19371082 1.33903365,4.41690909 L1.79803365,6.79863636 C2.04321684,8.06019691 3.09454532,9.03965376 4.32806368,9.37420151 C4.29639651,9.26131185 4.27181652,9.14722296 4.25316737,9.03190909 L3.302,3.5 Z" id="Combined-Shape"></path>
+</svg><!---0.608499%-->
+		</div>
+		<div class="x372e7__text">
+			Достижения<!---0.608499%-->
+		</div>
+	</div>
+	<div class="x372e7__selected-pointer"></div><!---0.608499%-->	
+</a><a target="_self" href="/catalog" class="x372e7__navigation-item" save-ref="">
+	<div class="x372e7__content-wrapper">
+		<div class="x372e7__icon x372e7__icon_type_catalog">
+			<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path fill="#000000" d="M16,5 C17.1045695,5 18,5.8954305 18,7 L18,16 C18,17.1045695 17.1045695,18 16,18 L2,18 C0.8954305,18 0,17.1045695 0,16 L0,7 C0,5.8954305 0.8954305,5 2,5 L16,5 Z M16,6.4 L2,6.4 C1.66862915,6.4 1.4,6.66862915 1.4,7 L1.4,16 C1.4,16.3313708 1.66862915,16.6 2,16.6 L16,16.6 C16.3313708,16.6 16.6,16.3313708 16.6,16 L16.6,7 C16.6,6.66862915 16.3313708,6.4 16,6.4 Z M11.7593639,8 C12.1660463,8 12.4957275,8.36631248 12.4957275,8.81818182 L12.4957275,8.81818182 L12.4957275,9.54789595 C12.4957275,10.903504 11.5066839,12.0024414 10.2866366,12.0024414 L10.2866366,12.0024414 L7.70457431,12.0024414 C6.48452709,12.0024414 5.4954834,10.903504 5.4954834,9.54789595 L5.4954834,9.54789595 L5.4954834,8.81818182 C5.4954834,8.36631248 5.82516463,8 6.23184703,8 C6.63852944,8 6.96821067,8.36631248 6.96821067,8.81818182 L6.96821067,8.81818182 L6.96821067,9.79568759 C6.96821067,10.2475569 7.2978919,10.6138694 7.70457431,10.6138694 L7.70457431,10.6138694 L10.2866366,10.6138694 C10.693319,10.6138694 11.0230003,10.2475569 11.0230003,9.79568759 L11.0230003,9.79568759 L11.0230003,8.81818182 C11.0230003,8.36631248 11.3526815,8 11.7593639,8 Z M15.3036011,2.60720215 C15.6882116,2.60720215 16,2.91899057 16,3.30360107 C16,3.68821158 15.6882116,4 15.3036011,4 L2.69639893,4 C2.31178842,4 2,3.68821158 2,3.30360107 C2,2.91899057 2.31178842,2.60720215 2.69639893,2.60720215 L15.3036011,2.60720215 Z M13.3,-2.26485497e-14 C13.6865993,-2.16894593e-14 14,0.313400675 14,0.7 C14,1.08659932 13.6865993,1.4 13.3,1.4 L4.7,1.4 C4.31340068,1.4 4,1.08659932 4,0.7 C4,0.313400675 4.31340068,-2.25775326e-14 4.7,-2.26485497e-14 L13.3,-2.26485497e-14 Z" id="Combined-Shape"></path>
+</svg><!---0.608499%-->
+		</div>
+		<div class="x372e7__text">
+			Каталог<!---0.608499%-->
+		</div>
+	</div>
+	<div class="x372e7__selected-pointer"></div><!---0.608499%-->	
+</a><!---0.608499%-->
+		</div>
+		<div class="x48b1b__more-menu">
+			<!---0.608499%-->
+		</div>
+	</div>
+</div><!---0.608499%-->
+	</div>
+	<div class="x1a6b9__free-space"></div><!---0.608499%-->
+	<div class="x0a512__notifications-panel">
+	<div id="notifications_buttons_container">
+                    
+<div data-notifications-present-on-page="" class="notifications_center_wrapper user_portal">
+    <div data-notifications-counter="" class="notifications_counter_wrapper" style="border: 2px solid #3e4852 !important">
+        <div class="notifications_counter" id="notificationsCounter">6</div>
+    </div>
+    
+<div id="notificationsCenterButton" class="button_wrapper button notifications_center_button mouse_states white" data-has-preloader="0" data-role-button="">
+            <a class="button_body" href="javascript:void(0)" target="_self">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 36 36">
+        <g id="normal-state" style="color: #e8e8e8">
+            <path stroke="currentColor" stroke-width="1.7" d="M21.101 23.939l-.13.693c-.285 1.52-1.451 2.518-2.975 2.518-1.53 0-2.692-.994-2.976-2.517l-.13-.694m6.211 0h2.389c.093 0 .167 0 .358.005l.23.005c1.295.017 1.766-.254 2.003-1.146.204-.768-.014-1.211-1.263-2.414l-.293-.284c-.682-.671-.987-1.095-.987-1.607v-2.226c0-4.003-2.102-6.422-5.538-6.422-3.437 0-5.538 2.419-5.538 6.422v2.226c0 .511-.305.935-.986 1.604l-.295.286c-1.247 1.202-1.466 1.646-1.263 2.415.235.886.708 1.16 1.997 1.145.066 0 .095-.001.245-.004.186-.004.258-.005.35-.005h2.38m6.211 0h-6.21"></path>
+        </g>
+        <g id="selected-state" style="color: #bbbfc2">
+            <path stroke="currentColor" stroke-width="1.7" d="M21.101 23.939l-.13.693c-.285 1.52-1.451 2.518-2.975 2.518-1.53 0-2.692-.994-2.976-2.517l-.13-.694m6.211 0h2.389c.093 0 .167 0 .358.005l.23.005c1.295.017 1.766-.254 2.003-1.146.204-.768-.014-1.211-1.263-2.414l-.293-.284c-.682-.671-.987-1.095-.987-1.607v-2.226c0-4.003-2.102-6.422-5.538-6.422-3.437 0-5.538 2.419-5.538 6.422v2.226c0 .511-.305.935-.986 1.604l-.295.286c-1.247 1.202-1.466 1.646-1.263 2.415.235.886.708 1.16 1.997 1.145.066 0 .095-.001.245-.004.186-.004.258-.005.35-.005h2.38m6.211 0h-6.21"></path>
+        </g>
+    </svg>
+</a>
+    </div>    <div id="notificationsCenterListWrapper" tabindex="-1" class="arrow_dropdown notifications_center_list_wrapper invisible">
+        <div class="notifications_title">Уведомления</div>
+                <ul id="notificationsCenterList" class="items_list notifications_center_list">
+            <li data-no-notifications="" class="no_notifications_message">
+    Нет новых уведомлений</li><li id="notificationsCenterListLoadProgress" class="load_progress">
+    <div id="preloader_white_big5e5cf8f4ef799" class="preloader_white_big_container">
+    
+<img src="/images/ispring-ui/preloader/preloader_white_big.gif" alt="" class="preloader progress_image"></div></li>
+        </ul>
+        <a id="notificationsCenterShowAll" class="show_all" href="/notifications" title="Перейти на страницу уведомлений">
+                Посмотреть все        </a>
+    </div>
+    <input type="hidden" id="unreadNotificationsCount" value="6"><input type="hidden" id="totalNotificationsCount" value="6"><input type="hidden" id="isAdminPortal" value="0"><input type="hidden" id="canUserViewAdminPortal" value="0"><script type="text/html" id="notificationCenterNotificationTemplate"><li
+    data-notification
+    data-notification-id="<%= id %>"
+    data-notification-activate
+    class="item <%= can_be_activated %> <%= unread %>"
+>
+    <div class="notification_icon_wrapper">
+        <span class="ui_icon  notification_icon <%= type %>"></span>
+    </div>
+    <div class="notification_body">
+        <div class="notification_title" data-notification-title><%= name %></div>
+        <div class="notification_description" data-notification-description><%= description %></div>
+    </div>
+    <div class="notification_auxiliary">
+        <div class="mark_read_wrapper" data-notification-view-status>
+            <div data-notification-view-status-dot class="mark_read <%= unread %>" title="<%= unread_title %>"></div>
+        </div>
+        <div data-notification-time-ago class="notification_time_ago ellipsis_text" data-datetime="<%= created_at %>"></div>
+    </div>
+    <div class="clear"></div>
+</li></script><script type="text/html" id="notificationCenterNoNotifications"><li data-no-notifications class="no_notifications_message">
+    Нет новых уведомлений</li></script><input type="hidden" id="listLoadNotificationsUrl" value="/notifications/get"><input type="hidden" id="getPopupNotificationsUrl" value="/notifications/get_popup"><input type="hidden" id="changeViewStatusNotificationsUrl" value="/notifications/mark/viewed"><input type="hidden" id="markAllNotificationsViewedUrl" value="/notifications/mark_all_viewed"><input type="hidden" id="syncNotificationsUrl" value="/notifications/sync"><input type="hidden" id="viewAllNotificationsUrl" value="/notifications"><input type="hidden" id="isAdminPortal" value="0"><input type="hidden" id="canUserViewAdminPortal" value="0"></div>
+
+
+<div class="messaging_center_wrapper user_portal">
+    <div id="headlineUnreadMessagesCounterWrapper" class="messaging_counter_wrapper  hidden" style="border: 2px solid #3e4852 !important">
+        <div id="headlineUnreadMessagesCounterView" class="messaging_counter">
+            0        </div>
+    </div>
+    
+<div id="messagingCenterButton" class="button_wrapper button messaging_center_button mouse_states white" data-has-preloader="0" data-role-button="">
+            <a class="button_body" href="/messages" target="_self">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 36 36">
+        <g id="normal-state" style="color: #e8e8e8">
+            <rect width="18.4" height="14.4" x="8.8" y="10.8" stroke="currentColor" stroke-width="1.6" rx="1.7"></rect>
+            <path stroke="currentColor" stroke-width="1.6" d="M9 14l7.465 5.806a2.5 2.5 0 0 0 3.07 0L27 14"></path>
+        </g>
+        <g id="selected-state" style="color: #bbbfc2">
+            <rect width="18.4" height="14.4" x="8.8" y="10.8" stroke="currentColor" stroke-width="1.6" rx="1.7"></rect>
+            <path stroke="currentColor" stroke-width="1.6" d="M9 14l7.465 5.806a2.5 2.5 0 0 0 3.07 0L27 14"></path>
+        </g>
+    </svg>
+</a>
+    </div></div>
+            </div><!---0.608499%-->
+</div><!---0.608499%-->
+	<div class="x49546__user-menu">
+	<div class="x58493__combobox" save-ref="">
+	<div class="x58493__combobox-container" save-ref="">
+		<div class="x49546__user-avatar-view">
+	<div style="" class="x63614__icon x49546__avatar x63614__icon_without-image x49546__avatar_without-image">
+			</div><!---0.608499%-->
+</div><!---0.608499%-->
+	</div>
+	<!---0.608499%-->
+	<div class="x58493__list-view">
+		<!---0.608499%-->
+	</div>
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+	<!---0.608499%-->
+</div><!---0.608499%-->
+	<!---0.608499%-->
+</div><!---0.608499%-->
+	<div class="x91995__page-content">
+		<div class="xb8032__page-header">
+	<div class="xb8032__page-image-header xb8032__page-image-header_without-image xb8032__page-image-header_type_course" style="">
+		<div class="xb8032__image-header-text">
+			<div class="xb8032__content-wrapper">
+	<div class="xb8032__top-wrapper">
+		<div class="xb8032__line">
+			<a href="/courses?tab=to_do" class="x4588a__back">
+	<div class="x4588a__text" title="Назад к моим курсам">Назад к моим курсам<!---0.608499%--></div>
+</a><!---0.608499%-->
+			<div class="xb8032__space"></div>
+			<div class="x60114__container">
+	<div class="x60114__write-to-expert-button">
+	<a target="_blank" href="/messages?user=7&amp;content=621" class="x60114__write-to-expert-link">Написать эксперту<!---0.608499%--></a>
+	<div class="x60114__write-to-expert-icon"></div>
+	<div class="x60114__write-to-expert-icon x60114__write-to-expert-icon_hover"></div>
+</div><!---0.608499%-->
+	<div class="x60114__write-to-expert-panel-container">
+	<div class="x60114__write-to-expert-panel">
+        <div class="x60114__description">Возникли вопросы или предложения? Свяжитесь с экспертом.<!---0.608499%--></div>
+        <div class="x60114__expert">
+            <div style="" class="x63614__icon x60114__avatar x63614__icon_without-image x60114__avatar_without-image">
+			</div><!---0.608499%-->
+			<a target="_blank" href="/messages?user=7&amp;content=621" class="x60114__expert-name">Лаврухин Вячеслав<!---0.608499%--></a>
+        </div>
+    </div>
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+		</div>
+	</div>
+	<div class="xb8032__content">
+		<div class="xbdfe6__tags">
+	<div class="xbdfe6__tag xbdfe6__tag_style_empty xbdfe6__tag_type_learningpath">
+	Курс<!---0.608499%-->
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div class="xb8032__title" save-ref="" title="Высшая Лига. Эффективные личные финансы">Высшая Лига. Эффективные личные финансы<!---0.608499%-->
+</div><!---0.608499%-->
+		<div class="xb8032__status">
+			<div class="xb8032__status-text"><!---0.608499%--></div>
+			<!---0.608499%-->
+		</div>
+	</div>
+</div><!---0.608499%-->
+		</div>
+	</div>
+	<div class="xb8032__controls">
+		<div class="x4f396__page-controls">
+	<div class="x4f396__page-controls-wrapper">
+		<div class="x7951b__tabs">
+	<div class="x7951b__tab-control x7951b__tab-control_selected" data-id="structure">
+	Содержание<!---0.608499%-->
+</div><div class="x7951b__tab-control" data-id="info">
+	О курсе<!---0.608499%-->
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+		<!---0.608499%-->
+	</div>
+</div><!---0.608499%-->
+	</div>
+</div><!---0.608499%-->
+		<div class="x91995__ui-page-wrapper">
+			<div class="x91995__ui-page xfa624__content-info-page" save-ref="">
+				<div class="xc83a2__page-content">
+	<div class="xc83a2__page-content-wrapper">
+		<div class="xbd357__tab-content xbd357__tab-content_type_structure">
+	<div class="xbd357__structure-tab">
+		<div class="x21c50__content">
+	<div>
+	<div class="x711ee__section">
+	<!---0.608499%-->
+	<div>
+	<div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">Финансовая грамотность часть 1<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Видео<!---0.608499%--></div>
+				<div class="xf40d5__tip">1 час&nbsp;24 минуты<!---0.608499%--></div><!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">Финансовая грамотность часть 2<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Видео<!---0.608499%--></div>
+				<div class="xf40d5__tip">1 час&nbsp;31 минута<!---0.608499%--></div><!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">Основы финансовой грамотности<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Документ PDF<!---0.608499%--></div>
+				<!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">22 инструмента доходности<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Документ PDF<!---0.608499%--></div>
+				<!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">9 ошибок в личных финансах<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Документ PDF<!---0.608499%--></div>
+				<!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">Анкета для определения риск-профиля<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Таблица Excel<!---0.608499%--></div>
+				<!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">Рекомендации Рустама Гусейнова<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Документ Word<!---0.608499%--></div>
+				<!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><div save-ref="" class="xf40d5__module xf40d5__module_active">
+	<div class="xf40d5__content">
+		<div class="x56ba1__icon">
+	<div class="x52bc8__icon x52bc8__icon_type_not-started"></div><!---0.608499%-->
+</div><!---0.608499%-->
+		<div>
+			<div class="xf40d5__title">Таблица для ведения расходов<!---0.608499%--></div>
+			<div class="xf40d5__subtitle">
+				<div>Таблица Excel<!---0.608499%--></div>
+				<!---0.608499%-->
+			</div>
+			<!---0.608499%-->
+		</div>
+		<div class="xf40d5__space"></div>
+		<div class="x5c350__text x5c350__text_type_notStarted">Не начат<!---0.608499%--></div><!---0.608499%-->
+	</div>
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+</div><!---0.608499%-->
+	</div>
+</div><!---0.608499%-->
+	</div>
+</div><!---0.608499%-->
+			</div>
+		</div>
+	</div>
+</div></div>
 	<header class="hero">
 		<div class="container">
 			<nav class="navbar">
